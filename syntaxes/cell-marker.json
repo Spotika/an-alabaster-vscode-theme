@@ -1,0 +1,15 @@
+{
+  "scopeName": "an-alabaster.cell-marker.injection",
+  "injectionSelector": "L:source.python -string -comment.block",
+  "patterns": [
+    {
+      "match": "^\\s*(#\\s*%%)(.*)$",
+      "name": "markup.heading.cell.alabaster",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.cell.alabaster"
+        }
+      }
+    }
+  ]
+}

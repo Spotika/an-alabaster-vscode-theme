@@ -1,0 +1,14 @@
+{
+  "scopeName": "an-alabaster.todo.injection",
+  "injectionSelector": "L:comment, L:string.quoted.docstring",
+  "patterns": [
+    {
+      "match": "\\b(TODO|FIXME|XXX|HACK|BUG)\\b(\\([^)]*\\))?:?",
+      "name": "keyword.other.todo.alabaster"
+    },
+    {
+      "match": "\\b(NOTE|NB)\\b:?",
+      "name": "keyword.other.note.alabaster"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "name": "an-alabaster",
+  "displayName": "An Alabaster",
+  "description": "Minimal themes in the spirit of Alabaster: plain text, highlighted definitions, literals and comments. Flexoki palette, dark and light.",
+  "version": "1.0.0",
+  "publisher": "an-alabaster",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Spotika/an-alabaster-vscode-theme"
+  },
+  "galleryBanner": {
+    "color": "#100F0F",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "minimal",
+    "alabaster",
+    "flexoki",
+    "dark",
+    "light"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "An Alabaster Magenta Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/an-alabaster-magenta-dark.json"
+      },
+      {
+        "label": "An Alabaster Magenta Light",
+        "uiTheme": "vs",
+        "path": "./themes/an-alabaster-magenta-light.json"
+      },
+      {
+        "label": "An Alabaster Blue Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/an-alabaster-blue-dark.json"
+      },
+      {
+        "label": "An Alabaster Blue Light",
+        "uiTheme": "vs",
+        "path": "./themes/an-alabaster-blue-light.json"
+      },
+      {
+        "label": "An Alabaster Purple Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/an-alabaster-purple-dark.json"
+      },
+      {
+        "label": "An Alabaster Purple Light",
+        "uiTheme": "vs",
+        "path": "./themes/an-alabaster-purple-light.json"
+      },
+      {
+        "label": "An Alabaster Orange Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/an-alabaster-orange-dark.json"
+      },
+      {
+        "label": "An Alabaster Orange Light",
+        "uiTheme": "vs",
+        "path": "./themes/an-alabaster-orange-light.json"
+      }
+    ],
+    "grammars": [
+      {
+        "scopeName": "an-alabaster.cell-marker.injection",
+        "path": "./syntaxes/cell-marker.json",
+        "injectTo": [
+          "source.python"
+        ]
+      },
+      {
+        "scopeName": "an-alabaster.todo.injection",
+        "path": "./syntaxes/todo.json",
+        "injectTo": [
+          "source.python",
+          "source.rust",
+          "source.ts",
+          "source.tsx",
+          "source.js",
+          "source.cpp",
+          "source.c",
+          "source.yaml",
+          "source.toml",
+          "source.shell"
+        ]
+      }
+    ]
+  }
+}
